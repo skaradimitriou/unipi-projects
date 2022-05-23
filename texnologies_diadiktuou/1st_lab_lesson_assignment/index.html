@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>Unipi - First HTML Assignment - S.Karadimitriou</title>
+        <link rel="icon" type="image/x-icon" href="https://cdn3.iconfinder.com/data/icons/flat-rounded-7/50/617-512.png">
+    </head>
+
+  <style>
+
+      body{
+          background-color: #A22631;
+          margin: 5px;
+          border-style: solid;
+          border-color: #cbcbcb;
+          padding: 25px;
+      }
+
+      p {
+        text-align: justify;
+        text-justify: inter-word;
+      }
+
+
+      hr { 
+          background-color: #222C54;
+           height: 2px; 
+           border: 0; 
+           width: 50%; 
+           margin-top: 20px;
+        }
+
+      /*
+       * This class provides indent equal to two characters.
+       */
+      .two_chars_indent { 
+          text-indent: 2ch;
+      }
+
+      /* Header stylings */
+
+      .unipi_blue_header {
+          color: #222C54;
+      }
+
+      .unipi_red_header {
+        color: #A22631;
+      }
+
+      /* Background stylings */
+      .unipi_blue_bg { 
+          background-color: #222C54;
+      }
+
+      .unipi_grey_dark_bg {
+          background-color: #cacaca;
+      }
+
+      .unipi_grey_bg { 
+          background-color: #dfdfdf;
+      }
+      
+      .unipi_white_bg {
+          background-color: #ffffff; 
+      }
+
+      /*
+       * This class extends img property and makes a rounded image.
+       * the rounded img was developed as an extra requirement in order to make the deliverable's ui better.
+       */ 
+
+      img.rounded {
+        object-fit: cover;
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+    }
+
+    p.personal_details {
+        font-size: 17px;
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+  </style>
+    <body>
+
+        <!--Header Info-->
+        <div class="unipi_blue_bg">
+            <h1 style="text-align: center; padding-top: 24px;  color: #ffffff;">Τεχνολογίες Διαδικτύου</h1>
+            <h2 style="text-align: center; color: #dadada;">Πρώτη Εργασία - HTML</h2>
+            <br>
+        </div>
+
+        <!--Personal Details section-->
+        
+        <div style="padding: 16px; display: flex; flex-direction: row;" class="unipi_grey_bg">
+            <div>
+                <img style="float: left; margin-left: 10px; padding: 16px;" class="rounded" src="https://avatars.githubusercontent.com/u/64270931?v=4" alt="stathis_karadimitriou_img">
+            </div>
+            <div style="margin-left: 36px;">
+                <h2 class="unipi_blue_header">Βιογραφικά Στοιχεία</h3>
+                <p class="personal_details"><strong>Ονοματεπώνυμο:</strong> Ευστάθιος Καραδημητρίου</p>
+                <p class="personal_details"><Strong>Αριθμός Μητρώου: </Strong>ΜΠΠΛ21024</p>
+                <p class="personal_details"><Strong>Σχολή: </Strong>Πανεπιστήμιο Πειραιώς</p>
+                <p class="personal_details"><strong>Τμήμα: </strong>Πληροφορικής</p>
+                <p class="personal_details"><strong>Πόλη Γέννησης: </strong> Αθήνα, Αττικής</p>
+                <br>
+                <br>
+
+                <!---github url-->
+                <a href="https://github.com/skaradimitriou/"><img style="width: 35px; height: 35px;" class="rounded" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github"></a>
+
+                <!-- linkedin url -->
+                <a href="https://www.linkedin.com/in/ekaradimitriou/"><img style="width: 35px; height: 35px;" class="rounded" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png" alt="linkedin"></a>
+               
+            </div>
+        </div>
+
+        <!--About me section-->
+
+        <div style="padding: 16px;" class="unipi_grey_dark_bg">
+            <h2 style="margin-left: 26px; text-align: center;" class="unipi_red_header">Σχετικά με μένα</h3>
+            <p style="margin-left: 26px; padding-top:10px; padding-bottom: 20px;"class="two_chars_indent personal_details"><q>Μου αρέσει να μαθαίνω σχετικά με τους τρόπους που η <strong>τεχνολογία βοηθά</strong> τους ανθρώπους <strong>να απλοποιήσουν και να βελτιώσουν</strong> την ζωή τους <del>καθημερινά</del>. Αυτό που με συναρπάζει είναι να προσφέρω personalized λύσεις στους πελάτες μου σε εφαρμογές για κινητές συσκευές. Το <strong>Project Future μου έδωσε την ευκαιρία να αναπτύξω μια επιχειρηματική νοοτροπία</strong> που με έκανε να είμαι έτοιμος για κάθε πρόκληση. <ins>Όταν δεν εργάζομαι, μου αρέσει να εξερευνώ διαδρομές τρέχοντας στην πόλη μου.</ins></q></p>
+        
+            <hr>
+
+            <h3 style="text-align: center; padding-top: 20px;" class="unipi_blue_header"> Πιο πρόσφατο Project, ΠΜΣ Πληροφορική - Mobile App (Android)</h3>
+            <p style="font-size: 25px; text-align: right;">Η εφαρμογή αυτή αναπτύχθηκε το 2022 με την επίβλεψη του κ. Ευθύμιου Αλέπη, Αναπληρωτή Καθηγητή με σκοπό την εξυπηρέτηση των μελών του ΠΜΣ Πληροφορική και την προώθηση του σε υποψήφιους μεταπτυχιακούς φοιτητές.</p>
+                
+            <!--Play Store url-->
+            <a href="https://play.google.com/store/apps/details?id=com.stathis.unipiapp"><img style="width: 140px; height: 25px; align-items: center;" class="center" src="https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png" alt="github"></a>
+        </div>
+        
+        <div style="padding: 16px;" class="unipi_grey_bg">
+        
+            <div style="margin-left:120px; padding-left:40px;" class="unipi_grey_bg">
+                <!-- 5 break lines-->
+                <br><br><br><br><br>
+                
+                <!-- List starting from 150 to 0 -->
+                <h3 class="unipi_blue_header">Λίστα με ρωμαική φθίνουσα αρίθμηση</h3>
+                <ol type="I" start="150" end="0" reversed>
+                    <li>150</li>
+                    <li>149</li>
+                    <li>148</li>
+                    <li>147</li>
+                    <li>146</li>
+                    <li>145</li>
+                    <li>144</li>
+                    <li>143</li>
+                    <li>142</li>
+                    <li>141</li>
+                    <li>140</li>
+                </ol>
+            </div>
+        </div>
+    </body>
+</html>
