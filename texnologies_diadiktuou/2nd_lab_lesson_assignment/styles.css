@@ -1,0 +1,380 @@
+body {
+    margin:0;
+    background-color: #efefef;
+}
+
+.stathis_airlines_logo {
+    float: left;
+    height: 35px;
+    margin-top: 8px;
+    width: 35px;
+    padding-left: 1%;
+}
+
+.top_bar_bg{
+    height: 50px;
+    background-color: #293462;
+}
+
+.my_top_bar {
+    margin-left: auto;
+    float: right;
+    padding-top: 16px;
+    padding-right: 2%;
+}
+
+.top_bar_link {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+.top_bar_link:hover{
+    color:#ffffff;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #EC9B3B;
+}
+
+/* 
+ * Banners of main navigation pages 
+ * The only difference is that each one has a different image for background.
+ */
+
+.airlines_promo_banner {
+    height: 400px;
+    padding: 16px;
+}
+
+.home_banner {
+    background-image: url("img/small_plane_flying.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.places_to_visit_banner {
+    background-image: url("img/traveller.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.general_info_banner {
+    background-image: url("img/flight_sky.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.flights_departures_banner {
+    background-image: url("img/airport_departures.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.useful_info_banner {
+    background-image: url("img/airport_inside_view.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.contact_banner {
+    background-image: url("img/contact.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.promo_banner_title{
+    padding-top: 60px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+}
+
+.promo_banner_desc {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.promo_banner_btn{
+    background-color: #293462;    
+    margin: 0;
+    position: absolute;
+    margin-top: 64px;
+    left: 50%; /* used to center the promo button */
+    -ms-transform: translate(-50%, -50%); /* used to center the promo button */
+    transform: translate(-50%, -50%); /* used to center the promo button */
+    padding: 12px 20px; /* x,y => x: vertical padding, y: horizontal padding */
+    border-radius: 50px; /* makes the button rounded by 4px */
+}
+
+.promo_banner_btn:hover {
+    background-color: #3b4c8f;
+}
+
+.btn_link{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    border: none; /* removes the outline border from the btn */
+    cursor: pointer;
+}
+
+/* General Containers used in all screens */
+
+.container{
+    padding:16px;
+    background-color: #e5e5e5;
+}
+
+.container_alt {
+    padding:16px;
+    background-color: #f2f2f2;
+}
+
+
+.header_left {
+    font-family: 'Roboto', sans-serif;
+    color: #293462;
+    font-size: 24px;
+    text-align: left;
+    margin-right: 100px;
+}
+
+.divider_left {
+    color:#EC9B3B;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.description{
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    margin-right: 100px;
+    text-align: justify;
+}
+
+.description_center{
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.generic_btn{
+    background-color: #293462;    
+    margin: 0;
+    position: absolute;
+    margin-top: 48px;
+    padding: 12px 20px; /* x,y => x: vertical padding, y: horizontal padding */
+    border-radius: 50px; /* makes the button rounded by 4px */
+}
+
+.generic_btn:hover {
+    background-color: #3b4c8f;
+}
+
+.footer {
+    background-color:#222222;
+    padding: 16px;
+    height:300px;
+}
+
+.footer_text {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.footer_btn{
+    background-color: #293462;    
+    margin: 0;
+    position: absolute;
+    margin-top: 48px;
+    left: 50%; /* used to center the promo button */
+    -ms-transform: translate(-50%, -50%); /* used to center the promo button */
+    transform: translate(-50%, -50%); /* used to center the promo button */
+    padding: 12px 20px; /* x,y => x: vertical padding, y: horizontal padding */
+    border-radius: 50px; /* makes the button rounded by 4px */
+}
+
+.footer_btn:hover {
+    background-color: #3b4c8f;
+}
+
+.developed_by{
+    margin-top: 150px;
+    padding: 32px;
+    color: rgba(255, 255, 255,0.6);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.footer_go_up_btn {
+    float:right;
+    margin-top: 100px;
+    padding: 32px;
+}
+
+
+/* General Info Screen */
+
+ul {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul li::before {
+    content: "→";
+    color: #293462;
+    padding-right: 10px;
+    display: inline-block;
+    margin-left: -34px;
+}
+
+/* Places to visit Page */
+
+#interactive_map{
+    height: 480px;
+}
+
+.interactive_map_center {
+    margin: 0;
+    margin-top: 240px;
+    position: absolute;
+    left: 50%; /* used to center the promo button */
+    -ms-transform: translate(-50%, -50%); /* used to center the promo button */
+    transform: translate(-50%, -50%); /* used to center the promo button */
+    border-radius: 50px; /* makes the button rounded by 4px */
+}
+
+/* Useful Info Page */
+
+li{
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Flights Departures Page */
+
+tr {
+    box-shadow: 0px 0px 0px 1px rgba(68, 68, 68, 0.1);
+}
+
+th{
+    background-color: #293462;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Contact Screen */
+
+.contact_details {
+    width: 50%;
+    float: left;
+    
+}
+
+.contact_details_inner {
+    margin: 20px 10px 20px 20px; /*x,y,z,k => x: top, y: right, z: bottom, k: left */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #293462;
+    height: 550px;
+}
+
+.header_white {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: center;
+}
+
+.company_details{
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.airlines_map{
+    margin-top: 20px;
+}
+
+.contact_form {
+    width: 50%;
+    float: right;
+    
+}
+
+.contact_form_inner {
+    margin: 20px 20px 20px 10px; /*x,y,z,k => x: top, y: right, z: bottom, k: left */
+    padding: 20px;
+    border-radius: 8px;
+    height: 550px;
+    background-color: white;
+}
+
+.header {
+    font-family: 'Roboto', sans-serif;
+    color: #293462;
+    font-size: 24px;
+    text-align: center;
+}
+
+.divider {
+    width: 50px;
+    border-top: 3px solid #EC9B3B;
+}
+
+label {
+    color: #666666;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type=text] {
+    width: 97%;
+    margin-top: 8px;
+    margin-bottom:30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f6f6f6;
+    border:none;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.form_btn {
+    background-color: #293462;
+    color: white;
+    margin-top: 20px;
+    padding: 12px 20px; /* x,y => x: vertical padding, y: horizontal padding */
+    border: none; /* removes the outline border from the btn */
+    border-radius: 4px; /* makes the button rounded by 4px */
+    cursor: pointer;
+}
+
+.form_btn:hover {
+    background-color: #3b4c8f;
+}
