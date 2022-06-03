@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="scripts.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <title>Home - Third HTML Assignment - S.Karadimitriou</title>
+        <link rel="icon" type="image/x-icon" href="img/icons//stathis_airlines_logo_white.png">
+    </head>
+
+    <body>
+        <!-- Home Banner -->
+
+        <div class="airlines_promo_banner home_banner">
+            <div id="airlines_logo" class="top_bar_bg">
+                <div>
+                    <a href="index.html">
+                        <img class="stathis_airlines_logo" src="img/icons/stathis_airlines_logo_white.png" alt="stathis_airlines_logo_sm"/>
+                    </a>
+                </div>
+            </div>
+
+            <p class="promo_banner_title">Stathis Airlines</p>
+            <p class="promo_banner_desc">Είσαι μόλις ένα βήμα πριν απολαύσεις το ταξίδι σου</p>
+        </div>
+
+        <div class="container" style="height:800px; padding-left:50px; padding-right:50px;">
+            
+            <!-- Personal Details -->
+            <div style="float:left; width:50%;">
+                <div class="contact_form_inner">
+                    <p class="header">Προσωπικές Πληροφορίες</p>
+                    <hr class="divider">
+
+                    <form>
+                        <label>Ονοματεπώνυμο Επιβάτη</label><br>
+                        <input id="fullName" type="text" oninput="containsOnlyLatinChars('fullName')"; placeholder="Εισάγετε το ονοματεπώνυμο σας"><br>
+
+                        <label>Διεύθυνση</label><br>
+                        <input id="address" type="text" oninput="containsOnlyLatinChars('address')" placeholder="Εισάγετε τη διέθυνση σας"><br>
+    
+                        <label>Χώρα</label><br>
+                        <select name="country" id="country">
+                            <option value="greece">Ελλάδα</option>
+                            <option value="england">Αγγλία</option>
+                            <option value="spain">Ισπανία</option>
+                            <option value="holand">Ολλανδία</option>
+                            <option value="germany">Γερμανία</option>
+                            <option value="france">Γαλλία</option>
+                          </select>
+
+                        <br>
+
+                        <label>Ταχυδρομικός Κώδικας</label><br>
+                        <input id="postalCode" type="text" maxlength="5" placeholder="Εισάγετε τον ταχυδρομικό κώδικα σας"><br>
+
+                        <label>E-mail Επικοινωνίας</label><br>
+                        <input id="email" type="email" placeholder="Εισάγετε το e-mail σας.."><br>
+    
+                        <label>Τηλέφωνο Επικοινωνίας</label><br>
+                        <input id="telephone" type="tel" maxlength="13" placeholder="Πληκτρολογήστε το τηλέφωνο σας..."><br>
+
+                        <!-- <input class="form_btn" type="submit" value="Αποστολή"> -->
+                    </form>
+                </div>
+            
+            </div>
+
+            <!-- Payment Details -->
+            <div style="float:right; width:50%;">
+                <div class="contact_form_inner">
+                    <p class="header">Στοιχεία Πληρωμής</p>
+                    <hr class="divider">
+
+                    <form>
+                        <label>Επιλογή Τύπου Κάρτας</label><br>
+                        <div style="margin-top: 8px; margin-bottom: 30px;">
+                            <input id="payment_type_visa" type="radio" id="visa" name="payment_type" value="Visa">
+                            <label for="visa">Visa</label>
+                            <input id="payment_type_mastercard" style="margin-left: 50px;" type="radio" id="mastercard" name="payment_type" value="MasterCard">
+                            <label for="mastercard">MasterCard</label>
+                            <input id="payment_type_other" style="margin-left: 50px;" type="radio" id="other" name="payment_type" value="MasterCard">
+                            <label for="mastercard">Άλλο</label><br>
+                            <p id="payment_type_error"></p>
+                        </div>
+
+                        <label>Αριθμός Κάρτας</label><br>
+                        <input id="card_no" type="text" maxlength="16" oninput="validateCardNo()" placeholder="Εισάγετε τον αριθμό της κάρτας σας"><br>
+                    
+
+                        <label>Ημερομηνία Λήξης</label><br>
+                        <input id="card_expire_date" type="date" maxlength="8" placeholder="Εισάγετε την ημερομηνία λήξης της κάρτας σας"><br>
+
+                        <label>CVV</label><br>
+                        <input id="card_security_code" type="text" maxlength="3" oninput="validateCVV()" placeholder="Εισάγετε τον κωδικό ασφαλείας της κάρτας σας"><br>
+
+                        <label>Όνομα Δικαιούχου</label><br>
+                        <input id="card_holder_name" type="text" maxlength="30"placeholder="Εισάγετε το όνομα του Δικαιούχου"><br>
+
+                        <input class="form_btn_save" type="button" onclick="validateUserInput()" value="Αποθήκευση">
+                        <input class="form_btn_clean" type="button" onclick="clearFields()" value="Καθαρισμός">
+                        <input class="form_btn_print" type="button" onclick="openPrintDialog()" value="Εκτύπωση">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer-->
+
+        <div class="footer">
+            <p class="footer_text">Stathis Airlines και...<strong>Καλό σας Ταξίδι!</strong></p>
+
+            <a href="#airlines_logo"><img class="footer_go_up_btn" src="img/icons/ic_go_to_top.png" alt="go_to_top_btn" style="width:42px;height:42px;"></a>
+
+            <p class="developed_by">Developed by Stathis Karadimitriou as a part of the Web Development Course at University of Piraeus, 2022</p>
+        </div>
+    </body>
+</html>
