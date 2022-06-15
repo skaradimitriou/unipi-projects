@@ -1,0 +1,298 @@
+body {
+    margin:0;
+    background-color: #efefef;
+}
+
+.stathis_airlines_logo {
+    float: left;
+    height: 35px;
+    margin-top: 8px;
+    width: 35px;
+    padding-left: 1%;
+}
+
+.top_bar_bg{
+    height: 50px;
+}
+
+.airlines_promo_banner {
+    height: 600px;
+    padding-top: 16px;
+    padding-left: 10px;
+}
+
+.home_banner {
+    background-image: url("img/banners/home_banner.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.promo_banner_title{
+    padding-top: 100px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+}
+
+.promo_banner_desc {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.promo_banner_btn{
+    background-color: #EC9B3B;    
+    margin: 0;
+    position: absolute;
+    margin-top: 32px;
+    left: 50%; /* used to center the promo button */
+    -ms-transform: translate(-50%, -50%); /* used to center the promo button */
+    transform: translate(-50%, -50%); /* used to center the promo button */
+    padding: 12px 20px; /* x,y => x: vertical padding, y: horizontal padding */
+    border-radius: 50px; /* makes the button rounded by 4px */
+}
+
+.promo_banner_btn:hover {
+    background-color: #cf7d18;
+}
+
+.promo_banner_btn_clean {
+    background-color: #666666;
+    color: white;
+    margin-top: 12px;
+    margin-right: 16px;
+    border: none; /* removes the outline border from the btn */
+    cursor: pointer;
+    padding: 12px 20px; /* x,y => x: vertical padding, y: horizontal padding */
+    border-radius: 50px; /* makes the button rounded by 4px */
+}
+
+.promo_banner_btn_clean:hover{
+    background-color: #888888;
+}
+
+#search_by_mail{   
+    margin: 0;
+    position: absolute;
+    margin-top: 70px;
+    width:30%;
+    left: 50%; /* used to center the promo button */
+    -ms-transform: translate(-50%, -50%); /* used to center the promo button */
+    transform: translate(-50%, -50%); /* used to center the promo button */
+    padding: 12px 20px; /* x,y => x: vertical padding, y: horizontal padding */
+    border-radius: 50px; /* makes the button rounded by 4px */
+}
+
+.btn_link{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    border: none; /* removes the outline border from the btn */
+    cursor: pointer;
+}
+
+
+/* Main Content */
+
+.container{
+    padding:16px;
+    background-color: #e5e5e5;
+}
+
+.header_left {
+    font-family: 'Roboto', sans-serif;
+    color: #293462;
+    font-size: 24px;
+    text-align: left;
+    margin-right: 100px;
+}
+
+.divider_left {
+    color:#EC9B3B;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.description{
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    margin-right: 100px;
+    text-align: justify;
+}
+
+.generic_btn{
+    background-color: #293462;    
+    margin: 0;
+    position: absolute;
+    margin-top: 48px;
+    padding: 12px 20px; /* x,y => x: vertical padding, y: horizontal padding */
+    border-radius: 50px; /* makes the button rounded by 4px */
+}
+
+.generic_btn:hover {
+    background-color: #3b4c8f;
+}
+
+/* Table styling */
+tr {
+    box-shadow: 0px 0px 0px 1px rgba(68, 68, 68, 0.1);
+}
+
+th{
+    background-color: #293462;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Contact Forms */
+
+.contact_form_inner {
+    padding: 20px 5px 20px 0px; /*x,y,z,k => x: top, y: right, z: bottom, k: left */
+    height:650px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.contact_form_inner {
+    padding: 20px 20px 20px 20px; /*x,y,z,k => x: top, y: right, z: bottom, k: left */
+    height:650px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.header {
+    font-family: 'Roboto', sans-serif;
+    color: #293462;
+    font-size: 24px;
+    text-align: center;
+}
+
+.divider {
+    width: 50px;
+    border-top: 3px solid #EC9B3B;
+}
+
+label {
+    color: #666666;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type=text], input[type=email], input[type=tel], input[type=date] {
+    width: 97%;
+    margin-top: 8px;
+    margin-bottom:30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f6f6f6;
+    border:none;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+select {
+    width: 99.5%;
+    margin-top: 8px;
+    margin-bottom:30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f6f6f6;
+    border:none;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+label[for=visa], label[for=mastercard]{
+    margin-top: 8px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom:30px;
+}
+
+.form_btn_clean {
+    background-color: #666666;
+    color: white;
+    margin-top: 20px;
+    margin-right: 16px;
+    padding: 12px 20px; /* x,y => x: vertical padding, y: horizontal padding */
+    border: none; /* removes the outline border from the btn */
+    border-radius: 4px; /* makes the button rounded by 4px */
+    cursor: pointer;
+}
+
+.form_btn_clean:hover{
+    background-color: #888888;
+}
+
+.form_btn_save {
+    background-color: #293462;
+    color: white;
+    margin-top: 20px;
+    margin-right: 16px;
+    padding: 12px 20px; /* x,y => x: vertical padding, y: horizontal padding */
+    border: none; /* removes the outline border from the btn */
+    border-radius: 4px; /* makes the button rounded by 4px */
+    cursor: pointer;
+}
+
+.form_btn_save:hover {
+    background-color: #3b4c8f;
+}
+
+.form_btn_print {
+    background-color: #EC9B3B;
+    color: white;
+    margin-top: 20px;
+    margin-right: 16px;
+    padding: 12px 20px; /* x,y => x: vertical padding, y: horizontal padding */
+    border: none; /* removes the outline border from the btn */
+    border-radius: 4px; /* makes the button rounded by 4px */
+    cursor: pointer;
+}
+
+.form_btn_print:hover{
+    background-color: #f7b462;
+}
+
+/* Footer */
+
+.footer {
+    padding: 16px;
+    height:400px;
+    background-image: url("img/small_plane_flying.jpg");
+    background-image: url("img/small_plane_flying.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.footer_text {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.developed_by{
+    margin-top: 150px;
+    padding: 32px;
+    color: rgba(255, 255, 255,0.6);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.footer_go_up_btn {
+    float:right;
+    margin-top: 100px;
+    padding: 32px;
+}
