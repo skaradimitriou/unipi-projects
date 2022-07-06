@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AgiosNikolaosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Anaskopisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Axiotheata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Ethima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Intro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Photos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
