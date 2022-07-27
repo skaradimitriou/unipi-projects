@@ -1,5 +1,5 @@
 ## About
-This repository contains all the semester projects while studying for my Master's Degree in University of Piraeus (UoP)
+This repository contains all the projects implemented while studying for my Master's Degree in University of Piraeus (UoP)
 
 ## Languages
 
@@ -8,3 +8,7 @@ This repository contains all the semester projects while studying for my Master'
 - [HTML, CSS, JS, PHP](https://github.com/skaradimitriou/unipi-projects/tree/main/texnologies_diadiktuou) </br>
 - [Matlab](https://github.com/skaradimitriou/unipi-projects/tree/main/matlab) </br>
 - [Java](https://github.com/skaradimitriou/unipi-projects/tree/main/antikeimenostrefis_programmatismos)
+
+
+## Volunteer Projects
+- [Kotlin - Android](https://github.com/skaradimitriou/unipi-app)
