@@ -12,8 +12,8 @@
 - [HTML, CSS, JS, PHP](https://github.com/skaradimitriou/unipi-projects/tree/main/texnologies_diadiktuou) </br>
 - [Matlab](https://github.com/skaradimitriou/unipi-projects/tree/main/matlab) </br>
 - [Java](https://github.com/skaradimitriou/unipi-projects/tree/main/antikeimenostrefis_programmatismos)
-- [Web Development](https://github.com/skaradimitriou/unipi-airlines-portal) In Progress 🚧 
-- [Databases](https://github.com/skaradimitriou/unipi-airlines-db-project) In Progress 🚧 
+- [Web Development](https://github.com/skaradimitriou/unipi-airlines-portal)
+- [Databases](https://github.com/skaradimitriou/unipi-airlines-db-project)
 - [Rapid App Development (C#)]() In Progress 🚧 
 - [Human-Computer Interaction](https://github.com/skaradimitriou/unipi-smart-assistant) In Progress 🚧 
 
