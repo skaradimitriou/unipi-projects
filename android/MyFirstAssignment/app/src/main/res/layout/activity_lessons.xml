@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.stathis.myfirstassignment.ui.lessons.LessonsViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_bg"
+        tools:context=".ui.lessons.LessonsActivity">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/lessonsRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adapter="@{viewModel.adapter}"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:overScrollMode="never"
+            android:paddingBottom="@dimen/dimen_40"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/holder_dashboard_item" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

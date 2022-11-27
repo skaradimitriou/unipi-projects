@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/unipi_blue"
+    android:padding="@dimen/dimen_16">
+
+    <ImageView
+        android:id="@+id/navHeaderImgView"
+        android:layout_width="@dimen/dimen_60"
+        android:layout_height="@dimen/dimen_60"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_unipi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/navHeaderTitleTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/dimen_16"
+        android:text="@string/pms_informatics"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/navHeaderImgView" />
+
+    <TextView
+        android:id="@+id/nav_header_user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/dimen_5"
+        android:text="@string/unipi"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/navHeaderTitleTxtView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
