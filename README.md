@@ -14,8 +14,9 @@
 - [Java](https://github.com/skaradimitriou/unipi-projects/tree/main/antikeimenostrefis_programmatismos)
 - [Web Development](https://github.com/skaradimitriou/unipi-airlines-portal)
 - [Databases](https://github.com/skaradimitriou/unipi-airlines-db-project)
-- [Rapid App Development (C#)]() In Progress 🚧 
-- [Human-Computer Interaction](https://github.com/skaradimitriou/unipi-smart-assistant) In Progress 🚧 
+- [Rapid App Development (C#)]()
+- [Human-Computer Interaction](https://github.com/skaradimitriou/unipi-smart-assistant)
+- [Android](https://github.com/skaradimitriou/unipi-projects/tree/main/android)
 
 
 ## Volunteer Projects
