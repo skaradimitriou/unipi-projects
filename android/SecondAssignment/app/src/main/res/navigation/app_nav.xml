@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav.xml"
+    app:startDestination="@id/countriesLandingFragment">
+
+    <fragment
+        android:id="@+id/countriesLandingFragment"
+        android:name="com.stathis.secondassignment.ui.main.landing.CountriesLandingFragment"
+        android:label="CountriesLandingFragment"
+        tools:layout="@layout/fragment_countries_landing">
+        <action
+            android:id="@+id/goToCountryEditScreen"
+            app:destination="@id/editCountryFragment" />
+        <action
+            android:id="@+id/goToCountryAdditionScreen"
+            app:destination="@id/addCountryFragment" />
+        <action
+            android:id="@+id/goToCountryDetailsScreen"
+            app:destination="@id/countryDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/editCountryFragment"
+        android:name="com.stathis.secondassignment.ui.main.edit.EditCountryFragment"
+        android:label="fragment_edit"
+        tools:layout="@layout/fragment_edit">
+        <argument
+            android:name="country"
+            app:argType="com.stathis.secondassignment.model.Country" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addCountryFragment"
+        android:name="com.stathis.secondassignment.ui.main.add.AddCountryFragment"
+        android:label="fragment_add_country"
+        tools:layout="@layout/fragment_add_country" />
+
+    <fragment
+        android:id="@+id/countryDetailsFragment"
+        android:name="com.stathis.secondassignment.ui.main.details.CountryDetailsFragment"
+        android:label="CountryDetailsFragment"
+        tools:layout="@layout/fragment_country_details">
+        <argument
+            android:name="country"
+            app:argType="com.stathis.secondassignment.model.Country" />
+        <action
+            android:id="@+id/goToCountryEditScreen"
+            app:destination="@id/editCountryFragment" />
+    </fragment>
+</navigation>

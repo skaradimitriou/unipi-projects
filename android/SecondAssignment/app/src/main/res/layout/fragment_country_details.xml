@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.stathis.secondassignment.ui.main.details.CountryDetailsViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_bg"
+        tools:context=".ui.main.details.CountryDetailsFragment">
+
+        <androidx.recyclerview.widget.RecyclerView
+            style="@style/VerticalRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adapter="@{viewModel.adapter}"
+            android:paddingBottom="@dimen/dimen_64"
+            tools:listitem="@layout/holder_country_detail_item" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="detail"
+            type="com.stathis.secondassignment.model.CountryDetail" />
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dimen_10"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:clickable="false"
+        android:focusable="false"
+        app:cardCornerRadius="@dimen/dimen_12">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_16"
+            tools:background="@color/purple_500">
+
+            <ImageView
+                android:id="@+id/countryItemImgView"
+                android:layout_width="@dimen/dimen_40"
+                android:layout_height="@dimen/dimen_40"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:setLocalImage="@{detail.image}"
+                tools:src="@mipmap/ic_countries_logo_round" />
+
+            <TextView
+                android:id="@+id/countryTitleTxtView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingVertical="@dimen/dimen_8"
+                android:text="@{detail.title}"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/countryItemImgView"
+                tools:text="@string/dummy_title"
+                tools:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/countrySubtitleTxtView"
+                style="@style/text_16_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingBottom="@dimen/dimen_8"
+                android:text="@{detail.value}"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/countryTitleTxtView"
+                tools:text="@string/dummy_subtitle"
+                tools:textColor="@color/white" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</layout>

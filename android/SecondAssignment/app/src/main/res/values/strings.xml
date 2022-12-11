@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Countries</string>
+
+    <!-- Placeholders -->
+    <string name="dummy_title">Title</string>
+    <string name="dummy_subtitle">Subtitle</string>
+    <string name="capital_placeholder">Πρωτεύουσα: %s</string>
+    <string name="population_placeholder">Πληθυσμός: %s</string>
+
+    <!-- Countries Landing Screen-->
+    <string name="landing_title">Χώρες</string>
+    <string name="search_menu_item">Αναζήτηση βάσει ονόματος</string>
+    <string name="no_results_description">Δεν βρέθηκαν εγγραφές.\n\n Μπορείτε να προσθέσετε μια νέα χώρα πατώντας το κουμπί κάτω δεξιά (+).</string>
+    <string name="successful_country_deletion">Η χώρα διαγράφτηκε με επιτυχία.</string>
+
+    <!-- Add Country Screen -->
+    <string name="save_btn_text">Αποθήκευση</string>
+    <string name="new_country">Νέα Χώρα</string>
+    <string name="add_country_info_message">Για να προσθέσετε μια χώρα θα πρέπει να εισάγετε το όνομα της, την πρωτεύουσα της και τον πληθυσμό της.</string>
+
+    <!-- Edit Country Screen -->
+    <string name="edit_country_header">Επεξεργασία Χώρας</string>
+
+    <!-- Country Details Screen -->
+    <string name="details_screen_title">Πληροφορίες Χώρας</string>
+    <string name="detail_country">Χώρα</string>
+    <string name="detail_capital">Πρωτεύουσα</string>
+    <string name="detail_population">Πληθυσμός</string>
+    <string name="add_country_title">Προσθήκη Νέας Χώρας</string>
+    <string name="add_country_info">Πληροφορίες</string>
+
+    <!-- Delete Country BottomSheet -->
+    <string name="delete_country_header">Διαγραφή Χώρας</string>
+    <string name="delete_country_description">Είσαι σίγουρος ότι επιθυμείς να διαγράψεις αυτή τη χώρα;</string>
+    <string name="delete_btn_text">Διαγραφή</string>
+    <string name="delete_abort_btn_text">Άκυρο</string>
+
+
+</resources>

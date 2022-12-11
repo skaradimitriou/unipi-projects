@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="country"
+            type="com.stathis.secondassignment.model.Country" />
+
+        <variable
+            name="callback"
+            type="com.stathis.secondassignment.callback.CountryCallback" />
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dimen_10"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="@{() -> callback.onCountryClick(country)}"
+        app:cardCornerRadius="@dimen/dimen_10">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/dimen_16">
+
+            <TextView
+                android:id="@+id/countryNameTxtView"
+                style="@style/text_16_bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toStartOf="@id/editIconImgView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:setCountryName="@{country}" />
+
+            <TextView
+                android:id="@+id/capitalTxtView"
+                style="@style/normal_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dimen_4"
+                app:layout_constraintEnd_toEndOf="@id/countryNameTxtView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/countryNameTxtView"
+                app:setCapital="@{country}" />
+
+            <TextView
+                android:id="@+id/populationTxtView"
+                style="@style/normal_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dimen_4"
+                app:layout_constraintEnd_toEndOf="@id/countryNameTxtView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/capitalTxtView"
+                app:setPopulation="@{country.population}" />
+
+            <ImageView
+                android:id="@+id/editIconImgView"
+                android:layout_width="@dimen/dimen_30"
+                android:layout_height="@dimen/dimen_30"
+                android:layout_marginStart="@dimen/dimen_10"
+                android:layout_marginEnd="@dimen/dimen_10"
+                android:onClick="@{() -> callback.onEditIconClick(country)}"
+                android:src="@drawable/ic_edit_gray"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/deleteIconImgView"
+                app:layout_constraintStart_toEndOf="@id/countryNameTxtView"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/deleteIconImgView"
+                android:layout_width="@dimen/dimen_30"
+                android:layout_height="@dimen/dimen_30"
+                android:background="@drawable/ic_delete"
+                android:backgroundTint="#50ff0000"
+                android:onClick="@{() -> callback.onDeleteIconClick(country)}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</layout>
