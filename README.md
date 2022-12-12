@@ -14,10 +14,10 @@
 - [Java](https://github.com/skaradimitriou/unipi-projects/tree/main/antikeimenostrefis_programmatismos)
 - [Web Development](https://github.com/skaradimitriou/unipi-airlines-portal)
 - [Databases](https://github.com/skaradimitriou/unipi-airlines-db-project)
-- [Rapid App Development (C#)]()
-- [Human-Computer Interaction](https://github.com/skaradimitriou/unipi-smart-assistant)
-- [Android](https://github.com/skaradimitriou/unipi-projects/tree/main/android)
+- [Rapid App Development (C#)](https://github.com/skaradimitriou/UNIPI-GUIDE)
+- [Human-Computer Interaction - Kotlin](https://github.com/skaradimitriou/unipi-smart-assistant)
+- [Android - Java/Kotlin](https://github.com/skaradimitriou/unipi-projects/tree/main/android)
 
 
 ## Volunteer Projects
-- [Kotlin - Android](https://github.com/skaradimitriou/unipi-app)
+- [Android - Kotlin](https://github.com/skaradimitriou/unipi-app)
