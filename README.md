@@ -5,18 +5,31 @@
  <h3 align="center">University of Piraeus, MSc in Informatics, Projects</h3>
  <p align="center">This repository contains all the projects implemented while studying for my Master's Degree in University of Piraeus (UoP)</p>
 
-## Languages
+## Courses
 
+A' Semester
 - [C - Δομές Δεδομένων](https://github.com/skaradimitriou/unipi-projects/tree/main/domes_dedomenon) </br>
-- [Python](https://github.com/skaradimitriou/unipi-projects/tree/main/eisagwgi_stin_epistimi_ton_ypologiston) </br>
-- [HTML, CSS, JS, PHP](https://github.com/skaradimitriou/unipi-projects/tree/main/texnologies_diadiktuou) </br>
+- [Python - Εισαγωγή στην Πληροφορική](https://github.com/skaradimitriou/unipi-projects/tree/main/eisagwgi_stin_epistimi_ton_ypologiston) </br>
 - [Matlab](https://github.com/skaradimitriou/unipi-projects/tree/main/matlab) </br>
-- [Java](https://github.com/skaradimitriou/unipi-projects/tree/main/antikeimenostrefis_programmatismos)
-- [Web Development](https://github.com/skaradimitriou/unipi-airlines-portal)
-- [Databases](https://github.com/skaradimitriou/unipi-airlines-db-project)
-- [Rapid App Development (C#)](https://github.com/skaradimitriou/UNIPI-GUIDE)
-- [Human-Computer Interaction - Kotlin](https://github.com/skaradimitriou/unipi-smart-assistant)
-- [Android - Java/Kotlin](https://github.com/skaradimitriou/unipi-projects/tree/main/android)
+
+B' Semester
+- [Java - Αντικειμενοστρεφής Προγραμματισμός](https://github.com/skaradimitriou/unipi-projects/tree/main/antikeimenostrefis_programmatismos)
+- [HTML, CSS, JS, PHP - Τεχνολογίες Διαδικτύου (Labs)](https://github.com/skaradimitriou/unipi-projects/tree/main/texnologies_diadiktuou) </br>
+- [HTML, CSS, JS, PHP - Τεχνολογίες Διαδικτύου (Project)](https://github.com/skaradimitriou/unipi-airlines-portal)
+- [C# - Ταχεία Ανάπτυξη Εφαρμογών](https://github.com/skaradimitriou/UNIPI-GUIDE)
+- [Βάσεις & Αποθήκες Δεδομένων](https://github.com/skaradimitriou/unipi-airlines-db-project)
+- [Αλληλεπίδραση Ανθρώπου-Υπολογιστή - Android Project](https://github.com/skaradimitriou/unipi-smart-assistant)
+- [Τεχνητή Νοημοσύνη - Έμπειρα Συστήματα](https://github.com/skaradimitriou/unipi-projects/tree/main/artificial_intelligence)
+
+
+C' Semester
+- [Android - Ανάπτυξη Εφαρμογών σε Κινητές Συσκευές](https://github.com/skaradimitriou/unipi-projects/tree/main/android)
+- [Android - Ανάπτυξη Εφαρμογών σε Κινητές Συσκευές - (Project)](https://github.com/skaradimitriou/unipi-audio-stories)
+- [Τεχνολογία Λογισμικού - Android Project](https://github.com/skaradimitriou/unipi-vet-app) Under Development 🚧
+- [Αναγνώριση Προτύπων]() Under Development 🚧
+
+D' Semester
+- [Ιατρική Πληροφορική - Spring Boot]() Soon 🚧
 
 
 ## Volunteer Projects
