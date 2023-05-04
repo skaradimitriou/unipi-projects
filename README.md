@@ -25,7 +25,7 @@ B' Semester
 C' Semester
 - [Android - Ανάπτυξη Εφαρμογών σε Κινητές Συσκευές](https://github.com/skaradimitriou/unipi-projects/tree/main/android)
 - [Android - Ανάπτυξη Εφαρμογών σε Κινητές Συσκευές - (Project)](https://github.com/skaradimitriou/unipi-audio-stories)
-- [Τεχνολογία Λογισμικού - Android Project](https://github.com/skaradimitriou/unipi-vet-app) Under Development 🚧
+- [Τεχνολογία Λογισμικού - Android Project](https://github.com/skaradimitriou/unipi-vet-app)
 - [Αναγνώριση Προτύπων]() Under Development 🚧
 
 D' Semester
