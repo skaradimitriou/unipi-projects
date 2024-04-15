@@ -29,8 +29,13 @@ C' Semester
 - [Αναγνώριση Προτύπων]() Under Development 🚧
 
 D' Semester
-- [Ιατρική Πληροφορική - Spring Boot]() Soon 🚧
+- [Ιατρική Πληροφορική - Spring Boot](https://github.com/skaradimitriou/unipi-vet-doctor-app)
 
+## Dissertation
+«Development of an android application with series suggestions and user interaction»
+
+- [SeriesMania App](https://github.com/skaradimitriou/unipi-seriesmania-app)
+- [SeriesMania Backend Application](https://github.com/skaradimitriou/seriesmania-be-app)
 
 ## Volunteer Projects
 - [Android - Kotlin](https://github.com/skaradimitriou/unipi-app)
