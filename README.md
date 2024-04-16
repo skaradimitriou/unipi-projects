@@ -11,6 +11,7 @@ A' Semester
 - [C - Δομές Δεδομένων](https://github.com/skaradimitriou/unipi-projects/tree/main/domes_dedomenon) </br>
 - [Python - Εισαγωγή στην Πληροφορική](https://github.com/skaradimitriou/unipi-projects/tree/main/eisagwgi_stin_epistimi_ton_ypologiston) </br>
 - [Matlab](https://github.com/skaradimitriou/unipi-projects/tree/main/matlab) </br>
+- [Αρχές Προγραμματισμού - Γλώσσα C, C++](https://github.com/skaradimitriou/unipi-projects/tree/main/arxes_programmatismou) </br>
 
 B' Semester
 - [Java - Αντικειμενοστρεφής Προγραμματισμός](https://github.com/skaradimitriou/unipi-projects/tree/main/antikeimenostrefis_programmatismos)
